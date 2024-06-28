@@ -1,0 +1,278 @@
+/* General Styles */
+body {
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #333;
+    font-weight: bold;
+}
+
+/* Navigation Bar Styles */
+
+header {
+    background-color: #000;
+    color: #fff;
+    padding: 1rem;
+}
+
+nav {
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+}
+
+nav ul li {
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+/*body section css styles*/
+    
+.body_section{
+   
+    margin: 30px auto;
+    font-weight: 700;
+    margin-top: 5%;
+    font-family: 'Great Vibes', cursive;
+    text-align: center;
+    font-size:2rem;
+}
+
+/* Contact Form Styles */
+#contact {
+    padding: 40px 20px;
+    text-align: center;
+    background-color: #fff;
+    border-radius: 10px;
+    margin: 20px auto;
+    margin-bottom: 4%;
+    max-width: 600px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#contact h2 {
+    font-family: 'Great Vibes', cursive;
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+#contact .cv-download {
+    margin-bottom: 20px;
+}
+
+#contact .cv-download a {
+    display: inline-flex;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #4a4949;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 7px;
+    font-size: 1em;
+    transition: background-color 0.3s;
+}
+
+#contact .cv-download a i {
+    margin-right: 8px;
+    font-size: 1.2em;
+}
+
+#contact .cv-download a:hover {
+    background-color: #646262;
+}
+
+#contact form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+#contact form label {
+    font-weight: bold;
+}
+
+#contact form input, 
+#contact form textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1em;
+}
+
+#contact form button {
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 1em;
+    cursor: pointer;
+}
+
+#contact form button:hover {
+    background-color: #555;
+}
+
+#contact #form-feedback {
+    font-size: 1em;
+    color: green;
+}
+
+/* Footer Styles */
+
+footer {
+    position:relative;
+    font-weight: 600;
+    background-color: #353434;
+    color: #fff;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.copyright{
+    display: flex;
+    justify-content: space-around;
+
+}
+ .letter_logo  {
+    font-family: "Great Vibes", cursive;
+    font-size: 30px;
+    color: #fff;
+    text-decoration: none;
+    margin-left: 20px;
+}
+/* General styles for social media links */
+.social-media {
+    display: flex;
+    justify-content: center;
+    gap: 15px; /* Adjust gap between links as needed */
+    margin-top: 20px; /* Adjust margin as needed */
+}
+
+.social-media a {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: inherit; /* Use the inherited color */
+    font-size: 18px; /* Adjust font size as needed */
+    transition: color 0.3s ease;
+}
+
+.social-media a i {
+    margin-right: 16px; /* Space between icon and text */
+    font-size: 20px; /* Adjust icon size as needed */
+}
+
+.social-media a:hover {
+    color: #5b5b5b; /* Change color on hover, customize as needed */
+}
+
+/* Additional footer styling for alignment */
+footer {
+    text-align: center;
+    padding: 20px 20px; /* Adjust padding as needed */
+    background-color: #3d3d3d; /* Customize background color */
+}
+
+footer .letter_logo a {
+    font-weight: bold;
+    color: #000; /* Customize as needed */
+    margin-right: 20px;
+    text-decoration: none;
+    transition: color o.3s ease;
+}
+.copyright{
+    font-weight:100;
+}
+ .letter_logo:hover {
+    transition: 0.3s;
+    color: #9d9a9a; /* Customize hover color */
+}
+
+footer .social-media a {
+    color: #fff;
+    text-decoration: none;
+    margin-left: 16px;
+}
+/* Responsive Styles */
+@media (max-width: 768px) {
+    nav ul {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    nav ul li a {
+        padding: 10px;
+    }
+
+    #contact {
+        margin: 10px;
+        padding: 20px 10px;
+    }
+
+    #contact h2 {
+        font-size: 2em;
+    }
+
+    #contact .cv-download a {
+        padding: 8px 15px;
+        font-size: 0.9em;
+    }
+
+    #contact form label {
+        font-size: 0.9em;
+    }
+
+    #contact form input, 
+    #contact form textarea {
+        font-size: 0.9em;
+        padding: 8px;
+    }
+
+    #contact form button {
+        font-size: 0.9em;
+        padding: 8px 15px;
+    }
+
+    footer .social-media {
+        flex-direction: column;
+        gap: 10px;
+    }
+}
+
+@media (max-width: 480px) {
+    #contact h2 {
+        font-size: 1.8em;
+    }
+
+    #contact .cv-download a {
+        font-size: 0.85em;
+    }
+
+    #contact form label {
+        font-size: 0.85em;
+    }
+
+    #contact form input, 
+    #contact form textarea {
+        font-size: 0.85em;
+        padding: 6px;
+    }
+
+    #contact form button {
+        font-size: 0.85em;
+        padding: 6px 10px;
+    }
+}
