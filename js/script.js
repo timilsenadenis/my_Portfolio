@@ -1,3 +1,15 @@
+
+
+document.addEventListener('DOMContentLoaded', () => {
+    const image = document.querySelector('.responsive-fade-image');
+
+    // Add a fade-out class based on a condition (e.g., button click, scroll, etc.)
+    setTimeout(() => {
+        image.classList.add('fade-out');
+    }, 2000); // Example: Fades out after 2 seconds
+});
+
+
 // Function to validate email format
 function validateEmail(email) {
     const emailPattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
