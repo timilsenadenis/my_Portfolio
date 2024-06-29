@@ -55,34 +55,16 @@ nav ul li a {
 }
 
 .blog_section h2 {
-    text-align: center;
+    text-align:center;
     margin-bottom: 1em;
     font-size: 2em;
     color: #333;
 }
 
 /* Blog posts styling */
-#blog-posts {
-    margin-bottom: 2em;
-}
+#blog-posts p{
+     font-size: 1.25em;
 
-.blog-post {
-    background: #fff;
-    padding: 1em;
-    margin-bottom: 1em;
-    border-radius: 8px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-}
-
-.blog-post h4 {
-    margin-bottom: 0.5em;
-    font-size: 1.5em;
-    color: #333;
-}
-
-.blog-post p {
-    font-size: 1em;
-    color: #666;
 }
 
 /* Footer Styles */
