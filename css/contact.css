@@ -1,11 +1,11 @@
 /* General Styles */
 body {
     font-family: 'M PLUS Rounded 1c', sans-serif;
-    margin: 0;
     padding: 0;
     background-color: #f9f9f9;
     color: #333;
     font-weight: bold;
+    display: block;
     margin: auto 5%;
 }
 
@@ -63,7 +63,7 @@ nav ul li a {
 
 #contact h2 {
     font-family: 'Great Vibes', cursive;
-    font-size: 2.5em;
+    font-size: 2rem;
     margin-bottom: 20px;
 }
 
@@ -203,7 +203,11 @@ footer .social-media a {
     margin-left: 16px;
 }
 /* Responsive Styles */
+
 @media (max-width: 768px) {
+    body{
+        margin: 0% 0%;
+    }
     nav ul {
         flex-direction: column;
         gap: 10px;
@@ -214,14 +218,16 @@ footer .social-media a {
     }
 
     #contact {
-        margin: 10px;
+        margin: 20px 20px;
         padding: 20px 10px;
     }
 
     #contact h2 {
-        font-size: 2em;
+        font-size: 1rem;
     }
-
+    .body_section{
+        font-size: 1rem;
+    }
     #contact .cv-download a {
         padding: 8px 15px;
         font-size: 0.9em;
@@ -249,6 +255,12 @@ footer .social-media a {
 }
 
 @media (max-width: 480px) {
+    body{
+        margin: 0 0;
+    }
+    .body_section{
+        font-size: o.8em;
+    }
     #contact h2 {
         font-size: 1.8em;
     }

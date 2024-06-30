@@ -20,6 +20,8 @@ body {
     height: 100vh;
 }
 
+
+
 /* Header Styles */
 header {
     background-color: #000;
@@ -46,7 +48,6 @@ nav ul li a {
     color: #fff;
     text-decoration: none;
 }
-
 /* Blog Section Styles */
 .blog_section {
     padding: 2em 20px;
@@ -127,7 +128,10 @@ footer .powered_by p {
 
 /* Responsive Adjustments */
 @media (max-width: 768px) {
-    .blog_section {
+    body{
+        margin:0 0;
+    }
+        .blog_section {
         padding: 10px;
     }
 
@@ -159,5 +163,8 @@ footer .powered_by p {
 @media (max-width: 480px) {
     .blog-post h4, .blog-post p {
         font-size: 0.9em;
+    }
+    body{
+        margin: 0 0;
     }
 }
