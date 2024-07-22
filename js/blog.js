@@ -18,7 +18,7 @@ document.addEventListener("DOMContentLoaded", function() {
             content: 'This is the second dynamic blog post content.',
             postedTime: new Date('2024-06-28T10:00:00')
         }
-        // Add more posts as needed
+        // Add more posts as neede
     ];
 
     posts.forEach(post => {
