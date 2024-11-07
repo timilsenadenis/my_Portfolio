@@ -5,19 +5,13 @@ document.addEventListener("DOMContentLoaded", function() {
 
     const posts = [
         {
-            profilePic: 'images/profile.jpg',
+            profilePic: 'images/1000003199.jpg',
             authorName: 'Denis Timilsena',
             dateTime: 'June 27, 2024 at 2:00 PM',
             content: 'This is the first dynamic blog post content.',
             postedTime: new Date('2024-06-27T14:00:00')
         },
-        {
-            profilePic: 'images/profile.jpg',
-            authorName: 'Denis',
-            dateTime: 'June 28, 2024 at 10:00 AM',
-            content: 'This is the second dynamic blog post content.',
-            postedTime: new Date('2024-06-28T10:00:00')
-        }
+     
         // Add more posts as neede
     ];
 
@@ -30,7 +24,7 @@ document.addEventListener("DOMContentLoaded", function() {
         postElement.innerHTML = `
             <div class="post-header">
                 <div class="profile-pic">
-                    <img src="${post.profilePic}" alt="Author's Profile Picture">
+                    <img src="${post.profilePic}" alt="Profile Picture">
                 </div>
                 <div class="post-meta">
                     <span class="author-name">${post.authorName}</span>
