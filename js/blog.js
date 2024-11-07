@@ -12,7 +12,7 @@ document.addEventListener("DOMContentLoaded", function() {
             postedTime: new Date('2024-06-27T14:00:00')
         },
         {
-            profilePic: 'images',
+            profilePic: 'images/profile.jpg',
             authorName: 'Denis',
             dateTime: 'June 28, 2024 at 10:00 AM',
             content: 'This is the second dynamic blog post content.',
